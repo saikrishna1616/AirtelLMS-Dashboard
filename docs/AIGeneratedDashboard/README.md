@@ -37,4 +37,4 @@ Test DOM, machine-readable result JSON, and desktop/mobile screenshots are writt
 
 `PRD.md`, `WORK_ITEMS.md`, `TEST_CASES.md`, `CODE_REVIEW.md`, `session chats.md`, `native-session.md`, `TIME_ANALYSIS.md`, `SUBMISSION.md`, test artifacts, and repository-local `.codex/` task documentation are included. The native session export contains actual visible messages through validation. Never publish the user-profile `.codex` directory; it can contain authentication and private history.
 
-Participant: Saikrishna Gajjela. The GitHub repository URL is required to finish the submission links. The dashboard-only GitHub package excludes the legacy application and its history. No assignment email has been sent.
+Participant: Saikrishna Gajjela. Repository: [AirtelLMS-Dashboard](https://github.com/saikrishna1616/AirtelLMS-Dashboard/tree/feature/ai-generated-dashboard). The dashboard-only GitHub package excludes the legacy application and its history. No assignment email has been sent.
