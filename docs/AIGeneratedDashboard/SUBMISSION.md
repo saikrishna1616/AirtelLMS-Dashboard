@@ -19,7 +19,7 @@ Deadline: **15 October 2026**. Recipient specified in the assignment: Srinivas.a
 - [x] Repository-local `.codex/` task documentation (include the complete repository-local folder).
 - [x] Curated session chat record plus actual visible native-session export through validation.
 - [x] PRD document and AI-generated work items.
-- [x] Dashboard source code, synthetic data generator, MVC entry action.
+- [x] Standalone dashboard source code, synthetic data generator, and required Airtel logo. MVC entry changes remain in the original project.
 - [x] Executable test cases and reproducible validation script.
 - [x] Chrome validation: 32 checks passed, zero failed; desktop and mobile screenshots inspected.
 - [x] Supply participant name and GitHub repository/session links.
