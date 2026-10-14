@@ -1,6 +1,6 @@
 # Codex session evidence — 14 October 2026
 
-This is a curated record of this task. `native-session.md` additionally contains an export of the actual visible user/assistant messages from the native Codex session through validation. System instructions, reasoning, tool payloads, and unrelated sessions are excluded.
+This is a curated record of this task. `native-session.md` additionally contains an export of the actual visible user/assistant messages from the native Codex session, refreshed through submission-document preparation. System instructions, reasoning, tool payloads, environment metadata, and unrelated sessions are excluded.
 
 ## User request
 

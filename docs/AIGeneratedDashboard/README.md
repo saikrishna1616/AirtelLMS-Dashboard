@@ -35,6 +35,8 @@ Test DOM, machine-readable result JSON, and desktop/mobile screenshots are writt
 
 ## Assignment deliverables
 
+The completed Word submission table is [AirtelLMS_Dashboard_Submission.docx](AirtelLMS_Dashboard_Submission.docx). See [REPOSITORY_CHECKLIST.md](REPOSITORY_CHECKLIST.md) for all six required categories. Regenerate the document using `Generate-SubmissionDocument.ps1`.
+
 `PRD.md`, `WORK_ITEMS.md`, `TEST_CASES.md`, `CODE_REVIEW.md`, `session chats.md`, `native-session.md`, `TIME_ANALYSIS.md`, `SUBMISSION.md`, test artifacts, and repository-local `.codex/` task documentation are included. The native session export contains actual visible messages through validation. Never publish the user-profile `.codex` directory; it can contain authentication and private history.
 
 Participant: Saikrishna Gajjela. Repository: [AirtelLMS-Dashboard](https://github.com/saikrishna1616/AirtelLMS-Dashboard/tree/feature/ai-generated-dashboard). The dashboard-only GitHub package excludes the legacy application and its history. No assignment email has been sent.

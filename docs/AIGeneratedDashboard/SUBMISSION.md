@@ -2,6 +2,8 @@
 
 Deadline: **15 October 2026**. Recipient specified in the assignment: Srinivas.adepu@schoolnetindia.com. The submission table is filled below; no email has been sent.
 
+Word document: [AirtelLMS_Dashboard_Submission.docx](AirtelLMS_Dashboard_Submission.docx). All six required repository categories are mapped in [REPOSITORY_CHECKLIST.md](REPOSITORY_CHECKLIST.md).
+
 | Field | Entry |
 | --- | --- |
 | Name | Saikrishna Gajjela |
