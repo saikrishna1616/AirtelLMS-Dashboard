@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Airtel LMS learning operations dashboard using deterministic synthetic data.">
+  <title>AIGeneratedDashboard | Airtel LMS</title>
+  <link rel="icon" href="../dist/assets/media/logos/Airtel_logo.png" type="image/png">
+  <link rel="stylesheet" href="dashboard.css">
+  <script defer src="data.js"></script>
+  <script defer src="dashboard.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to dashboard</a>
+  <aside class="sidebar">
+    <a class="brand" href="#overview" aria-label="Airtel LMS overview"><img src="../dist/assets/media/logos/Airtel_logo.png" alt="airtel"><span>LEARNING MANAGEMENT</span></a>
+    <div class="workspace"><span class="workspace-icon">L</span><div>Airtel LMS<small>Learning operations</small></div></div>
+    <p class="nav-label">WORKSPACE</p>
+    <nav aria-label="Dashboard navigation">
+      <a href="#overview" data-view="overview"><span aria-hidden="true">▦</span> Overview</a>
+      <a href="#batches" data-view="batches"><span aria-hidden="true">▤</span> Training batches</a>
+      <a href="#learners" data-view="learners"><span aria-hidden="true">♙</span> Learner progress</a>
+      <a href="#reports" data-view="reports"><span aria-hidden="true">↗</span> Reports &amp; evidence</a>
+    </nav>
+    <div class="sidebar-bottom"><div class="demo-dot"></div> Synthetic data workspace<p>Explore freely. Every record is generated for this assignment.</p><div class="profile"><span>LM</span><div>Learning manager<small>Demo workspace</small></div></div></div>
+  </aside>
+  <div class="shell">
+    <header class="topbar"><div>Airtel LMS <span>/</span> <strong id="breadcrumb">Overview</strong></div><div class="top-meta"><span class="synthetic-badge">● &nbsp; SYNTHETIC DATA</span><span class="avatar">LM</span></div></header>
+    <main id="main">
+      <div class="page-heading"><div><p class="eyebrow">LEARNING INTELLIGENCE</p><h1 id="page-title">A clearer view of learning.</h1><p id="page-description">Track training delivery, learner outcomes, and where to focus next.</p></div><button id="export" class="button primary"><span aria-hidden="true">↓</span> Export CSV</button></div>
+      <div class="context-line"><span class="live-dot"></span> AIGeneratedDashboard <span class="separator">·</span> Snapshot: 14 October 2026 <span class="separator">·</span> AI-assisted SDLC assignment</div>
+      <section class="filters" aria-label="Dashboard filters">
+        <label>Reporting period<select id="period"><option value="all">Apr – Oct 2026</option><option value="quarter">Aug – Oct 2026</option><option value="month">October 2026</option></select></label>
+        <label>Telecom circle<select id="circle"><option value="all">All circles</option></select></label>
+        <label>Learning program<select id="course"><option value="all">All programs</option></select></label>
+        <button id="reset" class="button ghost">Reset filters ↺</button>
+      </section>
+      <p id="filter-summary" class="filter-summary" role="status" aria-live="polite"></p>
+      <section id="metrics" class="metrics" aria-label="Key performance indicators"></section>
+      <div id="overview-view" class="view">
+        <section class="chart-grid">
+          <article class="panel"><div class="panel-heading"><div><h2>Learning momentum</h2><p>Enrollments and completions by enrollment month</p></div><span class="subtle-tag">2026</span></div><div class="legend"><span><i class="red"></i>Enrolled</span><span><i class="green"></i>Completed</span></div><div id="trend-chart" class="trend-chart"></div><p class="chart-note">October includes enrollments through 14 Oct. Completions are as of the snapshot.</p></article>
+          <article class="panel"><div class="panel-heading"><div><h2>Learning outcomes</h2><p>From enrollment to completion</p></div></div><div id="outcomes" class="outcomes"></div><div id="outcome-legend" class="outcome-legend"></div></article>
+        </section>
+        <section class="detail-grid">
+          <article class="panel"><div class="panel-heading"><div><h2>Program performance</h2><p>Completion rate by learning program</p></div><span class="subtle-tag">Target 80%</span></div><div id="program-chart" class="program-chart"></div></article>
+          <article class="panel insight-panel"><div class="panel-heading"><div><span class="insight-label">✧ DATA INSIGHTS</span><h2>Your next best actions</h2><p>Rule-based insights from this synthetic snapshot</p></div></div><div id="insights"></div><div class="insight-footnote">Rules: overdue incomplete training, program completion below 80%, and assessment failures. No live AI service is connected.</div></article>
+        </section>
+        <article class="panel region-panel"><div class="panel-heading"><div><h2>Circle snapshot</h2><p>Compare training outcomes across telecom circles</p></div><span class="subtle-tag">Select a circle to explore</span></div><div class="table-scroll"><table><caption class="sr-only">Circle performance. Select a circle to filter the dashboard.</caption><thead><tr><th scope="col">Telecom circle</th><th scope="col">Learners</th><th scope="col">Enrollments</th><th scope="col">Completion</th><th scope="col">Pass rate</th><th scope="col">Overdue</th></tr></thead><tbody id="circle-table"></tbody></table></div></article>
+      </div>
+      <section id="records-panel" class="panel view"><div class="panel-heading"><div><h2 id="records-title">Training batches</h2><p id="records-subtitle">Delivery health and progress, at a glance</p></div><label class="search-label"><span class="sr-only">Search records</span><input id="search" type="search" placeholder="Search batch, program or trainer…"></label></div><div class="table-tools"><div class="tabs" aria-label="Batch risk filters"><button class="active" data-risk="all" aria-pressed="true">All records</button><button data-risk="risk" aria-pressed="false">Needs attention</button><button data-risk="complete" aria-pressed="false">Completed</button></div><span id="record-count"></span></div><div class="table-scroll"><table><caption id="records-caption" class="sr-only">Training batches</caption><thead id="records-head"></thead><tbody id="records-body"></tbody></table></div><div class="pagination"><span id="page-info"></span><div><button id="previous" class="button ghost" aria-label="Previous page">← Previous</button><button id="next" class="button ghost" aria-label="Next page">Next →</button></div></div></section>
+      <section id="reports-view" class="view" hidden><div class="report-grid"><article class="panel"><div class="panel-heading"><div><h2>Snapshot report</h2><p>A shareable view of the current selection</p></div></div><div id="report-summary" class="report-summary"></div><button id="export-summary" class="button primary">↓ Download summary CSV</button></article><article class="panel"><div class="panel-heading"><div><h2>KPI definitions</h2><p>Transparent calculations, consistent decisions</p></div></div><dl class="definitions"><dt>Enrolled learners</dt><dd>Unique synthetic learners in the selected enrollments.</dd><dt>Completion rate</dt><dd>Completed enrollments ÷ all selected enrollments.</dd><dt>Assessment pass rate</dt><dd>Scores of at least 70 ÷ completed assessments. Unassessed records are excluded.</dd><dt>Overdue training</dt><dd>Incomplete enrollments whose due date is before 14 October 2026.</dd><dt>Filters and exports</dt><dd>Period, circle and program apply across every view. Search and status apply to the record table and its CSV export.</dd></dl></article></div><article class="panel evidence"><div class="panel-heading"><div><h2>Built with AI across the SDLC</h2><p>Assignment evidence is included in the project repository.</p></div><span class="subtle-tag">Due 15 Oct 2026</span></div><div class="evidence-steps"><span>01 <b>Requirements</b></span><span>02 <b>Design</b></span><span>03 <b>Implementation</b></span><span>04 <b>Testing</b></span><span>05 <b>Review</b></span><span>06 <b>Documentation</b></span></div><p>See <code>docs/AIGeneratedDashboard/</code> for the PRD, work items, test cases, review, session record, and submission checklist. Data is deterministically generated in <code>data.js</code>.</p></article></section>
+      <footer><span>Airtel LMS <span class="separator">/</span> AIGeneratedDashboard</span><span>Synthetic records only · Built with Codex</span></footer>
+    </main>
+  </div>
+  <dialog id="details"><div class="dialog-heading"><div><p class="eyebrow">TRAINING DETAIL</p><h2 id="detail-title"></h2></div><button id="close-dialog" class="button ghost" aria-label="Close details">✕</button></div><div id="detail-body"></div></dialog>
+  <div id="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
